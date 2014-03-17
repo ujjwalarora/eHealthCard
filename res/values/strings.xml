@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">eHealthCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register"><b>Sign in</b></string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_tag_issuer">Issue a tag</string>
+    <string name="title_activity_doctor">Doctor</string>
+    <string name="title_activity_patient">Patient details</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="doctor_title_section1">View details</string>
+    <string name="doctor_title_section2">Write prescription</string>
+    <string name="format_tag_title_section1">Automatic</string>
+    <string name="format_tag_title_section2">Manual</string>
+    <string name="title_activity_format_tag">Format tag</string>
+    <string name="label_working">Working</string>
+    <string name="label_patients_name">Patient\'s name</string>
+    <string name="label_accounts_email">Account\'s email</string>
+    <string name="label_accounts_password">Account\'s password</string>
+    <string name="label_date_of_birth">Date of birth</string>
+    <string name="label_tag_id">Tag ID</string>
+    <string name="label_tag_instructions">Just hold the tag against the device</string>
+    <string name="label_patients_information_on_tag">Patient\'s information on tag</string>
+    <string name="label_patients_data_from_cloud">Patient\'s data from cloud</string>
+    <string name="label_medicine">Medicine</string>
+    <string name="label_test">Test</string>
+    <string name="label_problem">Problem</string>
+    <string name="label_doctors_name">Doctor\'s name</string>
+    <string name="label_section_3">Section 3</string>
+    <string name="label_section_2">Section 2</string>
+    <string name="label_section_1">Section 1</string>
+    <string name="label_enter_rw_keys">Enter the RW keys</string>
+    <string name="label_format_tag">Format tag</string>
+    <string name="label_format_info">All the keys on the tag are set to DEFAULT_KEY</string>
+</resources>

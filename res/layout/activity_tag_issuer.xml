@@ -1,0 +1,107 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TagIssuerActivity" >
+    
+<!-- Task progress -->
+
+    <LinearLayout
+        android:id="@+id/tag_issuer_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tag_issuer_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/label_working"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+<!-- Form -->
+
+	<LinearLayout
+	    android:id="@+id/tag_issuer_form" 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    android:orientation="vertical"
+	     >
+	
+	    <EditText
+	        android:id="@+id/tag_issuer_name"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/label_patients_name"
+	        android:inputType="textPersonName"
+	        android:fontFamily="sans-serif-light"
+	        android:ems="10" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <EditText
+	        android:id="@+id/tag_issuer_email"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:fontFamily="sans-serif-light"
+	        android:hint="@string/label_accounts_email"
+	        android:inputType="textEmailAddress" />
+	
+	    <EditText
+	        android:id="@+id/tag_issuer_pass"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:fontFamily="sans-serif-light"
+	        android:singleLine="true"
+	        android:hint="@string/label_accounts_password"
+	        android:ems="10" />
+	
+	    <EditText
+	        android:id="@+id/tag_issuer_dob"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:fontFamily="sans-serif-light"
+	        android:hint="@string/label_date_of_birth"
+	        android:inputType="date" />
+	
+	    <EditText
+	        android:id="@+id/tag_issuer_tagID"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/label_tag_id"
+	        android:visibility="gone"
+	        android:clickable="false" 
+	        android:cursorVisible="false" 
+	        android:focusable="false" 
+	        android:fontFamily="sans-serif-light"
+	        android:focusableInTouchMode="false"
+	        android:ems="10" />
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dip"
+	        android:gravity="center"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+        	android:fontFamily="sans-serif-light"
+	        android:text="@string/label_tag_instructions" />
+	
+	</LinearLayout>
+</merge>
